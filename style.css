@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+header{
+    background: rgb(56, 50, 50);
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+header img{
+    width: 350px;
+
+}
+#coins{
+   
+    display: flex;
+    border: 2px solid rgb(30, 255, 0);
+    border-radius: 25px;
+    flex-wrap: wrap;
+    width: 720px;
+    margin: 80px auto;
+    position: relative;
+    background: rgb(43, 29, 23);
+}
+
+.media{
+    margin: auto;
+    line-height: 8px;
+}
+
+.media img{
+    border-radius: 35px;
+}
+
+.media h5{
+    transition: 0.3s;
+}
+.media h5:hover {
+    color: rgb(255, 0, 0);
+    transform: scaleX(1.1);
+}
